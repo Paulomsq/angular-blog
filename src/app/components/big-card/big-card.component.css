@@ -1,0 +1,13 @@
+#img-big-card{
+    max-width: 100%;
+}
+
+.container_big-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.description_big-card > p{
+    color: grey;
+}

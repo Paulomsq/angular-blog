@@ -1,0 +1,15 @@
+
+
+.container-nav > ul > li > a{
+    text-decoration: none;
+}
+
+.container-nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-nav > ul > li{
+    list-style: none;
+    margin-right: 2rem;
+}

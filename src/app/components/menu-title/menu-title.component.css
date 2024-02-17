@@ -1,0 +1,10 @@
+.title-menu {
+    margin: 0.5rem 0;
+}
+
+.title-menu > h1{
+    padding: 1rem 0;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+}
