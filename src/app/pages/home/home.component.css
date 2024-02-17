@@ -1,8 +1,4 @@
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
+
 
 .content{
     display: flex;
@@ -15,4 +11,18 @@ header{
     max-width: 45%;
 }
 
+.small-cards > .broke > hr{
+    max-width: 90%;
+    border-color: gray;
+    margin: 1rem 5%;
+}
 
+.small-cards > .broke {
+    text-align: center;
+}
+
+.small-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

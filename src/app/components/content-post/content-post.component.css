@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    align-items: center;
+    height: 100%;
+    margin: 2.5rem 0;
+    gap: 1.5rem;
+}
+
+.cover > img{
+    max-width: 500px;
+}
+
+.description > p {
+    color: rgb(155, 155, 155);
+}

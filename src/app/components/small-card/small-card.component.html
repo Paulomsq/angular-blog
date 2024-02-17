@@ -1,25 +1,9 @@
 <div class="container_small-card">
-    <div class="small-card first">
-        <img src="https://static.escolakids.uol.com.br/conteudo_legenda/9ef44f561fdf5ff715e219351d6209aa.jpg" alt="">
-        <div class="text first-card">
-            <h2>Título de uma das notícias</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-    </div>
-    <hr>
-    <div class="small-card second">
-        <img src="https://static.escolakids.uol.com.br/conteudo_legenda/9ef44f561fdf5ff715e219351d6209aa.jpg" alt="">
-        <div class="text second-card">
-            <h2>Título de alguma outra notícia por ai</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </div>
-    </div>
-    <hr>
-    <div class="small-card third">
-        <img src="https://static.escolakids.uol.com.br/conteudo_legenda/9ef44f561fdf5ff715e219351d6209aa.jpg" alt="">
-        <div class="text third-card">
-            <h2>Título de uma notícia com o título muito mais maior ainda do que o anterior</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <div class="small-card">
+        <img src="{{img}}" alt="">
+        <div class="text">
+            <h2><a [routerLink]="['content', id]">{{title}}</a></h2>
+            <p>{{description}}</p>
         </div>
     </div>
 </div>
